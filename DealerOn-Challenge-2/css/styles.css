@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  background-color: #FFFAF1;
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-dotted {
+  border: solid black 1px;
+  border-style: dashed;
+  padding: 12px 65px;
+}
+
+.border-solid {
+  border: solid black 1px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flex-container, .flex-center {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.flex-container {
+  justify-content: space-between;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.firebird-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)), url(firebirdlogo.jpg);
+  background-color: #1E1915;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0 60px 0;
+}
+
+.dark-bg {
+  width: 250px;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.flex-item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.flex-top {
+  width: 16%;
+  margin-top: 1rem;
+}
+
+.flex-full {
+  width: 100%;
+}
+
+.full-width {
+  width: 99%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.margin-tb {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.margin-auto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-font {
+  font-size: 54px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #FFFAF1;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Media Queries */
+@media (max-width: 1440px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .large-font {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flex-top {
+    width: 46%;
+  }
+}
+
+@media (min-width: 992px) {
+  .ml-2 {
+    margin-left: 2em;
+  }
+
+  .mr-2 {
+    margin-right: 2em;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .md-order-5 {
+    order: 5;
+  }
+
+  .md-order-6 {
+    order: 6;
+  }
+}
+
+@media (max-width: 767px) {
+  .flex-top {
+    width: 100%;
+  }
+
+  .flex-top {
+    max-width: 360px;
+    height: auto;
+  }
+
+  .flex-container {
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .large-font {
+    font-size: 32px;
+  }
+  
+  .part-width {
+    width: 99%;
+  }
+
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .sm-order-1 {
+    order: 1;
+  }
+
+  .sm-order-2 {
+    order: 2;
+  }
+}

@@ -1,0 +1,15 @@
+Use the assets provided to design and build a static landing page:
+- No frameworks allowed
+- Use HTML/CSS and up to five lines of jQuery
+
+Landing Page Requirements:
+- Ad copy (content.txt)
+- Logo (logo.png)
+- At least one image (use provided or choose your own)
+- Submission form that includes: Name and e-mail fields, submit button (does not need to function)
+
+What we are looking for:
+- Effective design techniques: typography, layout, use of color
+- Creative solutions to requirements
+- Error-free, well-organized code
+- Proper file structure

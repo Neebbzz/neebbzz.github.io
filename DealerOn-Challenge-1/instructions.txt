@@ -1,0 +1,16 @@
+
+Recreate the page included in the assets folder:
+- Frameworks allowed: Bootstrap
+- Note: If you are not familiar with Bootstrap then use plain HTML/CSS
+- Lorem Ipsum for text is allowed
+- Submissions must be provided in .zip format to the e-mail below
+
+Requirements:
+- Replicate the page from image (design_challenge_2.png)
+- Must be responsive (works on mobile and desktop)
+
+We are looking for:
+- Accurate recreation of page
+- Responsiveness and scalability
+- Error-free, well-organized code
+- Proper file structure
